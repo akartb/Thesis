@@ -1,6 +1,6 @@
 # Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience
 
-**Permanent DOI for Originality Proof**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020717.svg)](https://doi.org/10.5281/zenodo.20020717)
+**Permanent DOI for Originality Proof**:[![DOI](https://zenodo.org/badge/20020717.svg)](https://doi.org/10.5281/zenodo.20020717)
 
 This repository contains a series of original academic research papers spanning four core fields of theoretical science and engineering: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
 
