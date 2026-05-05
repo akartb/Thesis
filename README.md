@@ -1,10 +1,18 @@
 # Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience
 
-**Permanent DOI for Originality Proof**:[![DOI](https://zenodo.org/badge/20020717.svg)](https://doi.org/10.5281/zenodo.20020717)
+**Permanent DOI for Originality Proof (v1.5 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020717.svg)](https://doi.org/10.5281/zenodo.20020717)
 
 This repository contains a series of original academic research papers spanning four core fields of theoretical science and engineering: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
 
 All works include complete rigorous mathematical proofs, large-scale numerical experiments, standardized academic references, and testable theoretical predictions/conjectures, fully conforming to the normative requirements of professional academic research.
+
+---
+
+## Version Update Note (v1.5)
+This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a new original research paper in analytic number theory and random matrix theory is added, which systematically maps the complete phase diagram of spectral statistics of deterministic arithmetic prime matrices, perfecting the core framework of this research system.
+
+- v1.0 Permanent DOI: 10.5281/zenodo.20020717
+- v1.5 Full Archive: https://doi.org/10.5281/zenodo.20020717
 
 ---
 
@@ -79,6 +87,19 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 
 ---
 
+### 6. Spectral Statistics of Deterministic Arithmetic Prime Matrices: A Phase Diagram from GOE to Poisson (v1.5 Supplementary)
+**Field**: Analytic Number Theory, Random Matrix Theory, Additive Number Theory
+
+**Core Topic**: Systematically studies five core arithmetic kernels (sinc, divisor d, Liouville λ, Möbius μ, von Mangoldt Λ) in the three-dimensional parameter space of density, sign structure, and value discreteness, and maps the first complete phase diagram of spectral statistics for deterministic arithmetic prime matrices.
+
+**Key Results**:
+- Discovered that sparsity is the dominant tuning parameter for spectral universality classes: ⟨˜r⟩ decreases monotonically from GOE (ρ=1) to a compressed state (ρ≈0.0008), clarifying the long-obscured evolution mechanism of spectral statistics in this field.
+- Provided strong new numerical evidence for an additive version of the Chowla conjecture: the Liouville λ matrix on prime sums is the only tested construction that simultaneously passes both local (GOE spacing statistics) and global (semicircle moment ratio κ→2) GOE tests.
+- Verified through full control experiments that none of the tested deterministic arithmetic constructions achieve GUE statistics, proposing an empirical boundary conjecture for the inaccessibility of GUE within this framework.
+- Perfected the complete spectral analysis methodology for deterministic arithmetic prime matrices, providing a new research perspective for the Hilbert-Pólya conjecture.
+
+---
+
 ## Repository Structure
 
 ```
@@ -92,8 +113,10 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 │   └── sinc_kernel_primes_spectral_structure.pdf
 ├── 04-non-convolution-prime-arithmetic-matrices
 │   └── non_convolution_lambda_kernel_primes.pdf
-└── 05-heva-predictive-coding
-    └── heva_predictive_coding_bp_equivalence.pdf
+├── 05-heva-predictive-coding
+│   └── heva_predictive_coding_bp_equivalence.pdf
+└── 06-arithmetic-matrix-phase-diagram (v1.5 New)
+    └── spectral_statistics_prime_matrices_phase_diagram.pdf
 ```
 
 ---
@@ -103,7 +126,11 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 If you use the methods, results, or code from these works in your research, please cite the original collection via the permanent DOI:
 
 ```
+<<<<<<< HEAD
 Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience. Zenodo. https://doi.org/10.5281/zenodo.20020717
+=======
+Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience (v1.5). Zenodo. https://doi.org/10.5281/zenodo.20020717
+>>>>>>> 203a036 (Add v1.5 supplementary paper on arithmetic matrix phase diagram)
 ```
 
 ---
