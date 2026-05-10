@@ -1,6 +1,6 @@
 # Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience
 
-**Permanent DOI for Originality Proof (v1.5 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020717.svg)](https://doi.org/10.5281/zenodo.20020717)
+**Permanent DOI for Originality Proof (v1.5 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020716.svg)](https://doi.org/10.5281/zenodo.20020716)
 
 This repository contains a series of original academic research papers spanning four core fields of theoretical science and engineering: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
 
@@ -11,8 +11,8 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 ## Version Update Note (v1.5)
 This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, three new original research papers in analytic number theory and random matrix theory are added, covering deterministic arithmetic prime matrix phase diagrams, asymptotic arithmetic spectral geometry, and emergent level repulsion in Hecke operator families.
 
-- v1.0 Permanent DOI: 10.5281/zenodo.20020717
-- v1.5 Full Archive: https://doi.org/10.5281/zenodo.20020717
+- v1.0 Permanent DOI: 10.5281/zenodo.20020716
+- v1.5 Full Archive: https://doi.org/10.5281/zenodo.20020716
 
 ---
 
@@ -154,7 +154,7 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 If you use the methods, results, or code from these works in your research, please cite the original collection via the permanent DOI:
 
 ```
-Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience (v1.5). Zenodo. https://doi.org/10.5281/zenodo.20020717
+Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience (v1.5). Zenodo. https://doi.org/10.5281/zenodo.20020716
 ```
 
 ---
