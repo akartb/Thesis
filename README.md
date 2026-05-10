@@ -9,7 +9,7 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 ---
 
 ## Version Update Note (v1.5)
-This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a new original research paper in analytic number theory and random matrix theory is added, which systematically maps the complete phase diagram of spectral statistics of deterministic arithmetic prime matrices, perfecting the core framework of this research system.
+This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, three new original research papers in analytic number theory and random matrix theory are added, covering deterministic arithmetic prime matrix phase diagrams, asymptotic arithmetic spectral geometry, and emergent level repulsion in Hecke operator families.
 
 - v1.0 Permanent DOI: 10.5281/zenodo.20020717
 - v1.5 Full Archive: https://doi.org/10.5281/zenodo.20020717
@@ -87,7 +87,7 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a
 
 ---
 
-### 6. Spectral Statistics of Deterministic Arithmetic Prime Matrices: A Phase Diagram from GOE to Poisson (v1.5 Supplementary)
+### 6. Spectral Statistics of Deterministic Arithmetic Prime Matrices: A Phase Diagram from GOE to Poisson
 **Field**: Analytic Number Theory, Random Matrix Theory, Additive Number Theory
 
 **Core Topic**: Systematically studies five core arithmetic kernels (sinc, divisor d, Liouville λ, Möbius μ, von Mangoldt Λ) in the three-dimensional parameter space of density, sign structure, and value discreteness, and maps the first complete phase diagram of spectral statistics for deterministic arithmetic prime matrices.
@@ -97,6 +97,30 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a
 - Provided strong new numerical evidence for an additive version of the Chowla conjecture: the Liouville λ matrix on prime sums is the only tested construction that simultaneously passes both local (GOE spacing statistics) and global (semicircle moment ratio κ→2) GOE tests.
 - Verified through full control experiments that none of the tested deterministic arithmetic constructions achieve GUE statistics, proposing an empirical boundary conjecture for the inaccessibility of GUE within this framework.
 - Perfected the complete spectral analysis methodology for deterministic arithmetic prime matrices, providing a new research perspective for the Hilbert-Pólya conjecture.
+
+---
+
+### 7. From Semicircle to Sato-Tate: Moment Convergence, Hecke Angle Statistics, and the Dimension of S24(SL2(Z))
+**Field**: Analytic Number Theory, Random Matrix Theory, Automorphic Forms
+
+**Core Topic**: Extends the asymptotic arithmetic spectral geometry program from finite-dimensional matrix ensembles toward the automorphic world via three complementary results: the semicircle law, Sato-Tate statistics, and the dimension of S24.
+
+**Key Results**:
+- Proved that the standardized moments of the Liouville kernel on prime sums converge to the Catalan numbers for all even orders up to m12 (κ4=1.990, κ6=4.963, κ8=13.323 at N=4000), and formulated a conditional theorem linking this convergence to the additive Chowla conjecture.
+- Verified that Hecke eigenvalues of the Ramanujan Δ function for all 109 primes p≤599 confirm the Sato-Tate law (KS p=0.64) and reject uniformity (p=0.0003), with zero Ramanujan bound violations.
+- Proved that S24(SL2(Z)) has dimension 3 (not 2 as given by the standard formula), establishing linear independence of the three forms Δ·E4³, Δ·E4·E6, Δ·E6² via SVD rank verification.
+
+---
+
+### 8. From Sato-Tate to Wigner-Dyson: Emergent Level Repulsion in Families of Hecke Operators
+**Field**: Analytic Number Theory, Random Matrix Theory, Automorphic Forms
+
+**Core Topic**: Reports the first numerical observation of a monotonic transition in the spectral statistics of Hecke operator families across increasing dimensions of cusp form spaces, from Sato-Tate toward GOE universality.
+
+**Key Results**:
+- Discovered a monotonic evolution of the angle spacing ratio ⟨˜r⟩ from 0.326 (Sato-Tate, k=12, d=1) through 0.384 (Poisson, k=28, d=3) to 0.467 (GOE transition, k=36, d=4), a +0.14 increase consistent with the Katz-Sarnak prediction of emergent level repulsion.
+- Formulated a conditional theorem reducing the convergence to GUE to a decorrelation hypothesis on Hecke eigenvalues in high-dimensional spaces.
+- Provided the first systematic numerical evidence for the dimensional emergence of random matrix universality in automorphic spectral statistics, bridging the Sato-Tate and Wigner-Dyson regimes.
 
 ---
 
@@ -115,8 +139,12 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a
 │   └── non_convolution_lambda_kernel_primes.pdf
 ├── 05-heva-predictive-coding
 │   └── heva_predictive_coding_bp_equivalence.pdf
-└── 06-arithmetic-matrix-phase-diagram (v1.5 New)
-    └── spectral_statistics_prime_matrices_phase_diagram.pdf
+├── 06-arithmetic-matrix-phase-diagram
+│   └── spectral_statistics_prime_matrices_phase_diagram.pdf
+├── 07-semicircle-to-sato-tate
+│   └── semicircle_sato_tate_moment_convergence_hecke.pdf
+└── 08-sato-tate-to-wigner-dyson
+    └── sato_tate_wigner_dyson_hecke_repulsion.pdf
 ```
 
 ---
@@ -126,11 +154,7 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, a
 If you use the methods, results, or code from these works in your research, please cite the original collection via the permanent DOI:
 
 ```
-<<<<<<< HEAD
-Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience. Zenodo. https://doi.org/10.5281/zenodo.20020717
-=======
 Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience (v1.5). Zenodo. https://doi.org/10.5281/zenodo.20020717
->>>>>>> 203a036 (Add v1.5 supplementary paper on arithmetic matrix phase diagram)
 ```
 
 ---
