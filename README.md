@@ -1,18 +1,19 @@
 # Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience
 
-**Permanent DOI for Originality Proof (v1.5 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020716.svg)](https://doi.org/10.5281/zenodo.20020716)
+**Permanent DOI for Originality Proof (v1.6 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020716.svg)](https://doi.org/10.5281/zenodo.20020716)
 
-This repository contains a series of original academic research papers spanning four core fields of theoretical science and engineering: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
+This repository contains a series of original academic research papers spanning four core fields of theoretical science: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
 
 All works include complete rigorous mathematical proofs, large-scale numerical experiments, standardized academic references, and testable theoretical predictions/conjectures, fully conforming to the normative requirements of professional academic research.
 
 ---
 
-## Version Update Note (v1.5)
-This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, three new original research papers in analytic number theory and random matrix theory are added, covering deterministic arithmetic prime matrix phase diagrams, asymptotic arithmetic spectral geometry, and emergent level repulsion in Hecke operator families.
+## Version Update Note (v1.6)
+
+This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 and the 3 analytic number theory papers added in v1.5, this release adds a new paper on direct spacing ratio computation for zeros of the Riemann zeta and Ramanujan τ L-functions, providing a fully reproducible benchmark pipeline with complete uncertainty quantification.
 
 - v1.0 Permanent DOI: 10.5281/zenodo.20020716
-- v1.5 Full Archive: https://doi.org/10.5281/zenodo.20020716
+- v1.6 Full Archive: https://doi.org/10.5281/zenodo.20020716
 
 ---
 
@@ -25,7 +26,7 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 
 **Key Results**:
 - Derived the complete background dynamics of the universe (expansion, turnaround, contraction, non-singular bounce) with a robust total cycle period of ~192.5 Gyr, and a predicted cosmic turnaround time of 48.6 Gyr from the present epoch.
-- Obtained a dark energy equation of state prediction of $w_0=-0.9965$, $w_a \approx -0.002$, which is fully consistent with current cosmological observations and testable by Euclid, Roman, and CMB-S4 experiments.
+- Obtained a dark energy equation of state prediction of w₀ = −0.9965, wₐ ≈ −0.002, which is fully consistent with current cosmological observations and testable by Euclid, Roman, and CMB-S4 experiments.
 - Provided quantum gravity physical motivation for the hilltop potential form via marginal stability argument at the loop quantum cosmology (LQC) bounce, effective field theory truncation, and discrete causal set compatibility.
 - Diagnosed the primordial perturbation spectrum challenge of the cyclic model, and identified the matter-dominated contraction phase with isocurvature conversion as the most promising resolution path.
 
@@ -34,13 +35,13 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 ### 2. Boundary Analysis of the P vs NP Problem: Conditional Equivalence Under the Solution-Verification Complexity (k/z) Model
 **Field**: Theoretical Computer Science, Computational Complexity Theory
 
-**Core Topic**: Establishes a rigorous formal framework of solution complexity $k(n)$ and verification complexity $z(n)$ for the P vs NP problem, systematically refutes naive proof fallacies, and formalizes the conditional equivalence principle of P vs NP.
+**Core Topic**: Establishes a rigorous formal framework of solution complexity k(n) and verification complexity z(n) for the P vs NP problem, systematically refutes naive proof fallacies, and formalizes the conditional equivalence principle.
 
 **Key Results**:
-- Rigorously formalized the $k(n)/z(n)$ complexity framework without circular presuppositions and implicit assumptions, and defined the precondition consistency principle for valid P vs NP analysis.
-- Systematically proved the logical invalidity of naive $k/z$-type $P \neq NP$ proofs, identifying three fatal fallacies: confusion between algorithmic upper bound and problem intrinsic lower bound, circular reasoning, and violation of precondition consistency.
-- Restated the three fundamental proof barriers (relativization, natural proofs, algebrization) in the $k/z$ framework, and clarified the absolute proof-theoretic boundaries of intuitive growth-rate analysis methods.
-- Formalized the core conditional equivalence principle: the relationship between P and NP is strictly determined by the underlying computational preconditions (computational model, resource constraints, axiomatic system). Rigorous separation and collapse theorems of $k(n)$ and $z(n)$ under different computational models are provided.
+- Rigorously formalized the k(n)/z(n) complexity framework without circular presuppositions, and defined the precondition consistency principle for valid P vs NP analysis.
+- Systematically proved the logical invalidity of naive k/z-type P ≠ NP proofs, identifying three fatal fallacies: confusion between algorithmic upper bound and problem intrinsic lower bound, circular reasoning, and violation of precondition consistency.
+- Restated the three fundamental proof barriers (relativization, natural proofs, algebrization) in the k/z framework, clarifying the absolute proof-theoretic boundaries of intuitive growth-rate analysis.
+- Formalized the core conditional equivalence principle: the relationship between P and NP is strictly determined by the underlying computational preconditions (computational model, resource constraints, axiomatic system). Rigorous separation and collapse theorems under different computational models are provided.
 
 ---
 
@@ -50,10 +51,10 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 **Core Topic**: Introduces and analyzes a family of real symmetric matrices determined entirely by prime numbers with a sinc kernel, and establishes a complete spectral theory for this class of arithmetic matrices.
 
 **Key Results**:
-- Proved the core main theorem: for any fixed $\epsilon > 0$, the effective rank of the sinc-kernel prime matrix satisfies $\text{rank}_{\epsilon}(G_N) = \Theta(\log N)$, via two independent rigorous arguments (Rayleigh-Ritz lower bound and Slepian-Landau-Pollak upper bound).
-- Proved that the eigenvectors corresponding to the top $\Theta(\log N)$ eigenvalues are exponentially localized on the frequency boxes, via diagonal dominance analysis and the Davis-Kahan sin $\Theta$ theorem.
-- Developed the frequency-box decomposition method for arithmetic matrices on the primes, which provides a general tool for the spectral analysis of multiplicative arithmetic structures.
-- Large-scale numerical experiments (up to $N=5000$) revealed that the full spectrum exhibits geometric decay with a universal ratio $r^* \approx 1.94$, and the nearest-neighbor level-spacing statistics are consistent with the Gaussian Orthogonal Ensemble (GOE).
+- Proved the core main theorem: for any fixed ε > 0, the effective rank of the sinc-kernel prime matrix satisfies rank_ε(G_N) = Θ(log N), via two independent rigorous arguments (Rayleigh-Ritz lower bound and Slepian-Landau-Pollak upper bound).
+- Proved that the eigenvectors corresponding to the top Θ(log N) eigenvalues are exponentially localized on the frequency boxes, via diagonal dominance analysis and the Davis-Kahan sin Θ theorem.
+- Developed the frequency-box decomposition method for arithmetic matrices on the primes, providing a general tool for spectral analysis of multiplicative arithmetic structures.
+- Large-scale numerical experiments (up to N=5000) revealed that the full spectrum exhibits geometric decay with a universal ratio r* ≈ 1.94, and the nearest-neighbor level-spacing statistics are consistent with the Gaussian Orthogonal Ensemble (GOE).
 - Proposed the arithmetic injection barrier conjecture, and verified that multiplicative arithmetic factors systematically destroy the Wigner-Dyson universality of the spectrum.
 
 ---
@@ -61,26 +62,26 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 ### 4. Non-Convolution Arithmetic Matrices on the Primes: Breaking the Effective-Rank Barrier and Non-Universal Spectral Statistics
 **Field**: Analytic Number Theory, Random Matrix Theory, Additive Number Theory
 
-**Core Topic**: Constructs a non-convolution arithmetic matrix based on the von Mangoldt function on prime sums, breaks the $O(\log N)$ effective-rank barrier of convolution kernels, and discovers a novel intermediate spectral statistic beyond standard Wigner-Dyson universality classes. This work is a follow-up and breakthrough of the sinc-kernel matrix research.
+**Core Topic**: Constructs a non-convolution arithmetic matrix based on the von Mangoldt function on prime sums, breaks the O(log N) effective-rank barrier of convolution kernels, and discovers a novel intermediate spectral statistic beyond standard Wigner-Dyson universality classes.
 
 **Key Results**:
-- Rigorously proved the non-separability and non-convolution property of the $\Lambda$-kernel matrix defined by $K_{ij} = \Lambda(p_i + p_j) / \log(p_i + p_j)$, which fundamentally breaks the bandwidth constraint of convolution-type kernels.
-- Numerically verified that the positive eigenvalue count of the $\Lambda$-kernel matrix is $\Theta(N)$, achieving an 18-fold increase in effective rank at $N=2000$ compared to the sinc-kernel matrix, decisively breaking the $O(\log N)$ effective-rank barrier.
-- Designed a four-fold control experiment system with an unfolding-free Oganesyan-Huse spacing ratio statistic, and rigorously decomposed the spectral anomaly: non-negativity and sparsity contribute 65% of the total anomaly, while the discrete value set of the von Mangoldt function contributes 35% (95% statistically significant).
-- Proved the unitary equivalence barrier theorem: product-type complex phases (e.g., Dirichlet characters) leave all eigenvalues and spacing statistics invariant, precluding such strategies from steering the universality class of the spectrum.
-- Discovered a novel "arithmetic intermediate state" spectral statistic, whose small-spacing suppression lies between GOE and GUE, without conforming to any standard Wigner-Dyson universality class, expanding the theoretical boundary of random matrix universality.
+- Rigorously proved the non-separability and non-convolution property of the Λ-kernel matrix, fundamentally breaking the bandwidth constraint of convolution-type kernels.
+- Numerically verified that the positive eigenvalue count is Θ(N), achieving an 18-fold increase in effective rank at N=2000 compared to the sinc-kernel matrix.
+- Designed a four-fold control experiment system with the unfolding-free Oganesyan-Huse spacing ratio statistic, and rigorously decomposed the spectral anomaly: non-negativity and sparsity contribute 65% of the total anomaly, while the discrete value set of the von Mangoldt function contributes 35% (95% statistically significant).
+- Proved the unitary equivalence barrier theorem: product-type complex phases leave all eigenvalues and spacing statistics invariant, precluding such strategies from steering the universality class.
+- Discovered a novel "arithmetic intermediate state" spectral statistic, whose small-spacing suppression lies between GOE and GUE, expanding the theoretical boundary of random matrix universality.
 
 ---
 
 ### 5. H-EVA: A Predictive Coding Architecture with Verified Equivalence to Backpropagation
 **Field**: Computational Neuroscience, Deep Learning, Edge AI
 
-**Core Topic**: Implements a rigorous predictive coding (PC) architecture that strictly follows the theoretical mathematical formulation from foundational literature, identifies and corrects five critical implementation bugs in existing PC networks, and empirically verifies the theoretical equivalence between PC learning and backpropagation (BP).
+**Core Topic**: Implements a rigorous predictive coding (PC) architecture that strictly follows the theoretical mathematical formulation from foundational literature, identifies and corrects five critical implementation bugs, and empirically verifies the theoretical equivalence between PC learning and backpropagation (BP).
 
 **Key Results**:
-- Systematically identified and corrected five fatal implementation bugs in practical PC networks, including incorrect feedback derivative placement, pre-activation staleness in inference loops, and error-value inconsistency after inference convergence, resolving the long-standing divergence and convergence failure problem in real-world PC implementations.
+- Systematically identified and corrected five fatal implementation bugs in practical PC networks, including incorrect feedback derivative placement, pre-activation staleness in inference loops, and error-value inconsistency after inference convergence.
 - Provided the first systematic three-mode full-dimensional comparison: BP training + BP inference, BP training + PC inference, and PC learning + PC inference, covering both function regression and digit classification tasks.
-- Empirically verified the Whittington & Bogacz (2017) equivalence theorem: PC learning with sufficient inference iterations achieves identical accuracy to BP (97.78% on digit classification), completing the end-to-end practical validation of the theoretical result.
+- Empirically verified the Whittington & Bogacz (2017) equivalence theorem: PC learning with sufficient inference iterations achieves identical accuracy to BP (97.78% on digit classification).
 - Rigorously proved that layer-local Adam optimization preserves the spatial locality of PC learning rules, resolving the long-standing academic controversy on whether adaptive optimizers violate the biological plausibility and locality principle of PC.
 - Demonstrated that pure SGD-based PC learning fails to converge within 2000 epochs (MSE=0.027 on Sin fitting), establishing that adaptive optimization is essential for practical PC convergence.
 - All experiments run natively on CPU without GPU acceleration, verifying the feasibility of PC for resource-constrained edge-device AI deployment.
@@ -93,22 +94,22 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 **Core Topic**: Systematically studies five core arithmetic kernels (sinc, divisor d, Liouville λ, Möbius μ, von Mangoldt Λ) in the three-dimensional parameter space of density, sign structure, and value discreteness, and maps the first complete phase diagram of spectral statistics for deterministic arithmetic prime matrices.
 
 **Key Results**:
-- Discovered that sparsity is the dominant tuning parameter for spectral universality classes: ⟨˜r⟩ decreases monotonically from GOE (ρ=1) to a compressed state (ρ≈0.0008), clarifying the long-obscured evolution mechanism of spectral statistics in this field.
+- Discovered that sparsity is the dominant tuning parameter for spectral universality classes: ⟨r̃⟩ decreases monotonically from GOE (ρ=1) to a compressed state (ρ≈0.0008).
 - Provided strong new numerical evidence for an additive version of the Chowla conjecture: the Liouville λ matrix on prime sums is the only tested construction that simultaneously passes both local (GOE spacing statistics) and global (semicircle moment ratio κ→2) GOE tests.
 - Verified through full control experiments that none of the tested deterministic arithmetic constructions achieve GUE statistics, proposing an empirical boundary conjecture for the inaccessibility of GUE within this framework.
 - Perfected the complete spectral analysis methodology for deterministic arithmetic prime matrices, providing a new research perspective for the Hilbert-Pólya conjecture.
 
 ---
 
-### 7. From Semicircle to Sato-Tate: Moment Convergence, Hecke Angle Statistics, and the Dimension of S24(SL2(Z))
+### 7. From Semicircle to Sato-Tate: Moment Convergence, Hecke Angle Statistics, and the Dimension of S₂₄(SL₂(Z))
 **Field**: Analytic Number Theory, Random Matrix Theory, Automorphic Forms
 
-**Core Topic**: Extends the asymptotic arithmetic spectral geometry program from finite-dimensional matrix ensembles toward the automorphic world via three complementary results: the semicircle law, Sato-Tate statistics, and the dimension of S24.
+**Core Topic**: Extends the asymptotic arithmetic spectral geometry program from finite-dimensional matrix ensembles toward the automorphic world via three complementary results: the semicircle law, Sato-Tate statistics, and the dimension of S₂₄.
 
 **Key Results**:
-- Proved that the standardized moments of the Liouville kernel on prime sums converge to the Catalan numbers for all even orders up to m12 (κ4=1.990, κ6=4.963, κ8=13.323 at N=4000), and formulated a conditional theorem linking this convergence to the additive Chowla conjecture.
+- Proved that the standardized moments of the Liouville kernel on prime sums converge to the Catalan numbers for all even orders up to m₁₂ (κ₄=1.990, κ₆=4.963, κ₈=13.323 at N=4000), and formulated a conditional theorem linking this convergence to the additive Chowla conjecture.
 - Verified that Hecke eigenvalues of the Ramanujan Δ function for all 109 primes p≤599 confirm the Sato-Tate law (KS p=0.64) and reject uniformity (p=0.0003), with zero Ramanujan bound violations.
-- Proved that S24(SL2(Z)) has dimension 3 (not 2 as given by the standard formula), establishing linear independence of the three forms Δ·E4³, Δ·E4·E6, Δ·E6² via SVD rank verification.
+- Proved that S₂₄(SL₂(Z)) has dimension 3 (not 2 as given by the standard formula), establishing linear independence of the three forms Δ·E₄³, Δ·E₄·E₆, Δ·E₆² via SVD rank verification.
 
 ---
 
@@ -118,9 +119,23 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 **Core Topic**: Reports the first numerical observation of a monotonic transition in the spectral statistics of Hecke operator families across increasing dimensions of cusp form spaces, from Sato-Tate toward GOE universality.
 
 **Key Results**:
-- Discovered a monotonic evolution of the angle spacing ratio ⟨˜r⟩ from 0.326 (Sato-Tate, k=12, d=1) through 0.384 (Poisson, k=28, d=3) to 0.467 (GOE transition, k=36, d=4), a +0.14 increase consistent with the Katz-Sarnak prediction of emergent level repulsion.
+- Discovered a monotonic evolution of the angle spacing ratio ⟨r̃⟩ from 0.326 (Sato-Tate, k=12, d=1) through 0.384 (Poisson, k=28, d=3) to 0.467 (GOE transition, k=36, d=4), a +0.14 increase consistent with the Katz-Sarnak prediction of emergent level repulsion.
 - Formulated a conditional theorem reducing the convergence to GUE to a decorrelation hypothesis on Hecke eigenvalues in high-dimensional spaces.
 - Provided the first systematic numerical evidence for the dimensional emergence of random matrix universality in automorphic spectral statistics, bridging the Sato-Tate and Wigner-Dyson regimes.
+
+---
+
+### 9. Direct Spacing Ratio Computation for Zeros of the Riemann Zeta and Ramanujan τ L-Functions
+**Field**: Analytic Number Theory, Random Matrix Theory, Computational Number Theory
+
+**Core Topic**: Computes nearest-neighbor spacing ratios for zeros of the Riemann zeta function and the Ramanujan τ L-function using the lcalc engine within SageMath, providing a fully reproducible benchmark with complete uncertainty quantification.
+
+**Key Results**:
+- For the first 200 zeros of the Riemann zeta function, the spacing ratio is r̃ = 0.615 ± 0.012, consistent with the GUE theoretical value 0.602 given finite-size effects.
+- For the first 500 zeros of the Ramanujan τ L-function, obtained r̃ = 0.646 ± 0.008, which is 5.8 standard errors above GUE — a preliminary observation requiring independent verification.
+- Provided the complete code, the first 10 zeros for cross-validation, and a detailed uncertainty analysis.
+- Cautioned that the elevated τ L-function result may reflect computational limitations, finite-size effects, or systematic bias in the lcalc implementation.
+- Established a transparent, reproducible pipeline for spacing ratio computation that facilitates independent cross-validation with PARI/GP, Mathematica, or custom high-precision tools.
 
 ---
 
@@ -143,9 +158,24 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 │   └── spectral_statistics_prime_matrices_phase_diagram.pdf
 ├── 07-semicircle-to-sato-tate
 │   └── semicircle_sato_tate_moment_convergence_hecke.pdf
-└── 08-sato-tate-to-wigner-dyson
-    └── sato_tate_wigner_dyson_hecke_repulsion.pdf
+├── 08-sato-tate-to-wigner-dyson
+│   └── sato_tate_wigner_dyson_hecke_repulsion.pdf
+└── 09-zeta-tau-spacing-ratios
+    └── zeta_tau_spacing_ratios.pdf
 ```
+
+---
+
+## Thematic Map
+
+| Theme | Papers |
+|-------|--------|
+| Theoretical Cosmology & Quantum Gravity | 1 |
+| Computational Complexity Theory | 2 |
+| Analytic Number Theory & Random Matrix Theory | 3, 4, 6, 7, 8, 9 |
+| Computational Neuroscience & Deep Learning | 5 |
+
+Papers 3–4 and 6–9 form a coherent research arc in analytic number theory: Papers 3–4 establish the spectral theory of deterministic arithmetic matrices; Paper 6 maps the full phase diagram across five kernels; Papers 7–8 extend the program to automorphic forms and Hecke operators; and Paper 9 provides a direct spacing-ratio benchmark for classical L-function zeros.
 
 ---
 
@@ -154,7 +184,9 @@ This is the v1.5 supplementary update. Based on the original 5 papers in v1.0, t
 If you use the methods, results, or code from these works in your research, please cite the original collection via the permanent DOI:
 
 ```
-Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience (v1.5). Zenodo. https://doi.org/10.5281/zenodo.20020716
+Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity,
+Analytic Number Theory, and Computational Neuroscience (v1.6). Zenodo.
+https://doi.org/10.5281/zenodo.20020716
 ```
 
 ---
