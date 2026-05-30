@@ -1,6 +1,6 @@
 # Research Papers in Theoretical Cosmology, Computational Complexity, Analytic Number Theory, and Computational Neuroscience
 
-**Permanent DOI for Originality Proof (v1.6 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020716.svg)](https://doi.org/10.5281/zenodo.20020716)
+**Permanent DOI for Originality Proof (v1.7 Latest)**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20020716.svg)](https://doi.org/10.5281/zenodo.20020716)
 
 This repository contains a series of original academic research papers spanning four core fields of theoretical science: **theoretical cosmology & quantum gravity**, **computational complexity theory**, **analytic number theory & random matrix theory**, and **computational neuroscience & deep learning**.
 
@@ -8,12 +8,15 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 
 ---
 
-## Version Update Note (v1.6)
+## Version Update Note (v1.7)
 
-This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 and the 3 analytic number theory papers added in v1.5, this release adds a new paper on direct spacing ratio computation for zeros of the Riemann zeta and Ramanujan τ L-functions, providing a fully reproducible benchmark pipeline with complete uncertainty quantification.
+This is the v1.7 update. Changes from v1.6:
+- **Paper 3 revised**: geometric decay of sinc-kernel eigenvalues is now rigorously proved as Theorem 4.2 (previously a conjecture), with expanded exposition.
+- **Paper 10 added**: a new paper on negation-limited monotone circuit lower bounds for the CLIQUE function, extending Razborov's framework to circuits with up to c log n NOT gates.
+- All papers remain fully anonymized with cleaned metadata.
 
 - v1.0 Permanent DOI: 10.5281/zenodo.20020716
-- v1.6 Full Archive: https://doi.org/10.5281/zenodo.20020716
+- v1.7 Full Archive: https://doi.org/10.5281/zenodo.20020716
 
 ---
 
@@ -45,16 +48,17 @@ This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 an
 
 ---
 
-### 3. On the Spectral Structure of Sinc-Kernel Matrices on the Primes: Effective Rank, Geometric Decay, and Frequency-Box Decomposition
+### 3. On the Spectral Structure of Sinc-Kernel Matrices on the Primes: Effective Rank, Geometric Decay, and Frequency-Box Decomposition *(Revised)*
 **Field**: Analytic Number Theory, Random Matrix Theory, Mathematical Physics
 
-**Core Topic**: Introduces and analyzes a family of real symmetric matrices determined entirely by prime numbers with a sinc kernel, and establishes a complete spectral theory for this class of arithmetic matrices.
+**Core Topic**: Introduces and analyzes a family of real symmetric matrices determined entirely by prime numbers with a sinc kernel, and establishes a complete spectral theory for this class of arithmetic matrices. This revision upgrades the geometric decay from a numerical observation to a rigorous theorem.
 
 **Key Results**:
 - Proved the core main theorem: for any fixed ε > 0, the effective rank of the sinc-kernel prime matrix satisfies rank_ε(G_N) = Θ(log N), via two independent rigorous arguments (Rayleigh-Ritz lower bound and Slepian-Landau-Pollak upper bound).
 - Proved that the eigenvectors corresponding to the top Θ(log N) eigenvalues are exponentially localized on the frequency boxes, via diagonal dominance analysis and the Davis-Kahan sin Θ theorem.
+- **New**: Rigorously proved geometric decay of the leading Θ(log N) eigenvalues (Theorem 4.2): there exists an absolute constant r > 1 such that λ_k/λ_{k+1} ≥ r for all k = 1, ..., K−1. Numerical experiments (up to N=5000) confirm the universal ratio r* ≈ 1.94.
 - Developed the frequency-box decomposition method for arithmetic matrices on the primes, providing a general tool for spectral analysis of multiplicative arithmetic structures.
-- Large-scale numerical experiments (up to N=5000) revealed that the full spectrum exhibits geometric decay with a universal ratio r* ≈ 1.94, and the nearest-neighbor level-spacing statistics are consistent with the Gaussian Orthogonal Ensemble (GOE).
+- Large-scale numerical experiments show the nearest-neighbor level-spacing statistics are consistent with the Gaussian Orthogonal Ensemble (GOE).
 - Proposed the arithmetic injection barrier conjecture, and verified that multiplicative arithmetic factors systematically destroy the Wigner-Dyson universality of the spectrum.
 
 ---
@@ -139,6 +143,20 @@ This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 an
 
 ---
 
+### 10. Negation-Limited Monotone Circuits for CLIQUE: A Simple Proof of Strong Lower Bounds
+**Field**: Theoretical Computer Science, Circuit Complexity, Computational Complexity Theory
+
+**Core Topic**: Revisits the monotone circuit complexity of the CLIQUE function, proving that Razborov's exponential lower bound remains valid even when the circuit is allowed up to c·log n negation (NOT) gates — a simpler proof handling a strictly larger range than prior work.
+
+**Key Results**:
+- Proved that any circuit for CLIQUE(n, k) containing at most c·log n NOT gates requires at least n^{Ω(√k)} AND/OR gates, via a direct extension of Razborov's approximation framework.
+- The key insight: each NOT gate introduces an error of at most O(|X| + |Y|), while Razborov's threshold is Q = |X| · |Y|; the exponential gap between Q and |X| + |Y| allows logarithmically many negations without affecting the asymptotic bound.
+- Improved upon the prior result of Amano and Maruoka (2005), which handled only (1/6)·log log n NOT gates via a delicate layer-by-layer induction, by a simpler, cruder — but asymptotically sufficient — error analysis.
+- Provided a step-by-step manual verification of Razborov's approximator construction on a minimal CLIQUE instance (n = 5, k = 3) as a pedagogical illustration.
+- Provided an explicit Karchmer-Wigderson game for the same parameters, demonstrating the communication-complexity perspective on monotone depth lower bounds.
+
+---
+
 ## Repository Structure
 
 ```
@@ -160,8 +178,10 @@ This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 an
 │   └── semicircle_sato_tate_moment_convergence_hecke.pdf
 ├── 08-sato-tate-to-wigner-dyson
 │   └── sato_tate_wigner_dyson_hecke_repulsion.pdf
-└── 09-zeta-tau-spacing-ratios
-    └── zeta_tau_spacing_ratios.pdf
+├── 09-zeta-tau-spacing-ratios
+│   └── zeta_tau_spacing_ratios.pdf
+└── 10-negation-limited-clique
+    └── negation_limited_clique.pdf
 ```
 
 ---
@@ -171,11 +191,11 @@ This is the v1.6 supplementary update. Based on the original 5 papers in v1.0 an
 | Theme | Papers |
 |-------|--------|
 | Theoretical Cosmology & Quantum Gravity | 1 |
-| Computational Complexity Theory | 2 |
+| Computational Complexity Theory | 2, 10 |
 | Analytic Number Theory & Random Matrix Theory | 3, 4, 6, 7, 8, 9 |
 | Computational Neuroscience & Deep Learning | 5 |
 
-Papers 3–4 and 6–9 form a coherent research arc in analytic number theory: Papers 3–4 establish the spectral theory of deterministic arithmetic matrices; Paper 6 maps the full phase diagram across five kernels; Papers 7–8 extend the program to automorphic forms and Hecke operators; and Paper 9 provides a direct spacing-ratio benchmark for classical L-function zeros.
+Papers 3–4 and 6–9 form a coherent research arc in analytic number theory: Papers 3–4 establish the spectral theory of deterministic arithmetic matrices; Paper 6 maps the full phase diagram across five kernels; Papers 7–8 extend the program to automorphic forms and Hecke operators; and Paper 9 provides a direct spacing-ratio benchmark for classical L-function zeros. Papers 2 and 10 are complementary works in computational complexity: Paper 2 addresses the P vs NP problem through the k/z framework, while Paper 10 provides concrete circuit lower bounds for the CLIQUE function under limited negation.
 
 ---
 
@@ -185,7 +205,7 @@ If you use the methods, results, or code from these works in your research, plea
 
 ```
 Anonymous Author. (2026). Research Papers in Theoretical Cosmology, Computational Complexity,
-Analytic Number Theory, and Computational Neuroscience (v1.6). Zenodo.
+Analytic Number Theory, and Computational Neuroscience (v1.7). Zenodo.
 https://doi.org/10.5281/zenodo.20020716
 ```
 
