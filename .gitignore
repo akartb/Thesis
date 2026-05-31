@@ -1,0 +1,6 @@
+# Source PDFs in root (anonymized versions live in numbered directories)
+/*.pdf
+
+# Temporary files
+*.tmp
+*.txt

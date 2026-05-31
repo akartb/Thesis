@@ -10,9 +10,12 @@ All works include complete rigorous mathematical proofs, large-scale numerical e
 
 ## Version Update Note (v1.7)
 
-This is the v1.7 update. Changes from v1.6:
+This is the v1.7 update. All 10 papers have been harmonized with anonymized metadata (no author, creator, or producer fields), and each PDF carries the permanent DOI `10.5281/zenodo.20020716` in its metadata Subject field.
+
+Changes from v1.6:
 - **Paper 3 revised**: geometric decay of sinc-kernel eigenvalues is now rigorously proved as Theorem 4.2 (previously a conjecture), with expanded exposition.
 - **Paper 10 added**: a new paper on negation-limited monotone circuit lower bounds for the CLIQUE function, extending Razborov's framework to circuits with up to c log n NOT gates.
+- **DOI metadata**: all 10 papers now embed the collection DOI in PDF metadata for persistent identification.
 - All papers remain fully anonymized with cleaned metadata.
 
 - v1.0 Permanent DOI: 10.5281/zenodo.20020716
